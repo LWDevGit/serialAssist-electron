@@ -1,10 +1,10 @@
 {
   "name": "serialAssist",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "electron_build_win64": "electron-packager . serialAssist --win --out=release --arch=x64 --app-version=1.0.0 --electron-version=4.0.0 --overwrite --icon=./www/favicon.ico --asar",
+    "electron_build_win64": "electron-packager . serialAssist --win --out=release --arch=x64 --app-version=1.0.8 --overwrite --icon=./favicon.ico --asar",
     "dev": "electron . --debug"
   },
   "dependencies": {

@@ -11,7 +11,7 @@ window.$ = window.jQuery = require('./public/js/jquery.min.js');
 //参数
 var revCount = 0;
 var revCountTemp = 0;
-var rateArray = [9600, 14400, 19200, 38400, 56000, 115200, 256000];
+var rateArray = [9600, 14400, 19200, 38400, 56000, 115200, 250000, 256000];
 //var parityArray = ['none','even','mark','odd','space'];
 //var dataBitsArray = [5, 6, 7, 8];
 var serialData = '';
